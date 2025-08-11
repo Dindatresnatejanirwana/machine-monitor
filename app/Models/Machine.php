@@ -2,29 +2,23 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Machine extends Model
 {
-    // Mengizinkan mass-assignment pada kolom berikut
-    protected $fillable = ['name', 'location', 'status'];
+    use HasFactory; // Mengaktifkan factory untuk membuat data dummy
 
-    /**
-     * Relasi: satu Machine punya banyak Reading
-     * -> $machine->readings()
-     */
+    // Kolom yang boleh diisi secara mass-assignment
+    protected $fillable = [
+        'name',      // Nama mesin
+        'location',  // Lokasi mesin
+        'status',    // Status mesin (running / stopped)
+    ];
+
+    // Relasi: 1 Machine punya banyak Reading
     public function readings()
     {
         return $this->hasMany(Reading::class);
-    }
-
-    /**
-     * Relasi helper: ambil reading terbaru berdasarkan recorded_at
-     * -> $machine->latestReading
-     */
-    public function latestReading()
-    {
-        // latestOfMany menggunakan kolom recorded_at untuk menentukan terbaru
-        return $this->hasOne(Reading::class)->latestOfMany('recorded_at');
     }
 }
