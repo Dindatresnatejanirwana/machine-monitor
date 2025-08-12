@@ -199,4 +199,6 @@ class MachineMonitorCommand extends Command
         $scale = pow(10, $decimals);
         return mt_rand((int)($min * $scale), (int)($max * $scale)) / $scale;
     }
+
+    // Commit keempat: Tambahkan fitur simulate & status report
 }
