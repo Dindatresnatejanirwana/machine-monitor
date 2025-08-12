@@ -22,13 +22,8 @@ Project berikut menggunakan software:
 
 1. Laragon, [https://laragon.org/download/](https://laragon.org/download/)
 
-   ![image-20250812115644093](C:\Users\Dinda Tresna Teja\AppData\Roaming\Typora\typora-user-images\image-20250812115644093.png)
 
 2. VS Code
-
-   ![image-20250812115530295](C:\Users\Dinda Tresna Teja\AppData\Roaming\Typora\typora-user-images\image-20250812115530295.png)
-
-   
 
    ## Membuat Project Laravel di Laragon
 
@@ -40,7 +35,7 @@ Project berikut menggunakan software:
 
    1. Untuk setup database menggunakan SQLite, jalankan perintah di bawah ini pada terminal laragon
 
-   ![image-20250812124604914](C:\Users\Dinda Tresna Teja\AppData\Roaming\Typora\typora-user-images\image-20250812124604914.png)
+  [create directory di laragon.png](https://github.com/Dindatresnatejanirwana/machine-monitor/blob/d9247ab7f5c6f2c9b981e070b1f7c464de429c89/create%20directory%20di%20laragon.png)
 
    ```
    #membuat directory baru
@@ -52,7 +47,7 @@ Project berikut menggunakan software:
 
    2. Kemudian lanjutkan untuk konfigurasi `.env`. Buka file `.env` di root project dan ubah bagian koneksi database menjadi:
 
-   ![image-20250812125639548](C:\Users\Dinda Tresna Teja\AppData\Roaming\Typora\typora-user-images\image-20250812125639548.png)
+   [env database.png](https://github.com/Dindatresnatejanirwana/machine-monitor/blob/d9247ab7f5c6f2c9b981e070b1f7c464de429c89/env%20database.png)
 
    ```
    # Mengatur jenis database yang digunakan Laravel
@@ -136,7 +131,6 @@ Project berikut menggunakan software:
 
    Tujuan dari migration `create_machines_table.php` itu adalah membuat struktur tabel `machines` di database yang akan digunakan Laravel untuk menyimpan data mesin. Berikut perintah yang harus diinputkan menggunakan VS Code pada xxxx_create_machine_table.php
 
-   ![image-20250812134409982](C:\Users\Dinda Tresna Teja\AppData\Roaming\Typora\typora-user-images\image-20250812134409982.png)
 
    ```
    <?php
@@ -722,5 +716,6 @@ Project berikut menggunakan software:
 
 
    
+
 
 
