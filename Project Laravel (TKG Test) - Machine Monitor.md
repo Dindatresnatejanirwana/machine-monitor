@@ -716,9 +716,10 @@ Project berikut menggunakan software:
 
    22222.png
 
-   test 3.png
+   [test 3.png](https://github.com/Dindatresnatejanirwana/machine-monitor/blob/d9247ab7f5c6f2c9b981e070b1f7c464de429c89/test%203.png)
 
    ![image-20250812140710582](C:\Users\Dinda Tresna Teja\AppData\Roaming\Typora\typora-user-images\image-20250812140710582.png)
 
 
    
+
