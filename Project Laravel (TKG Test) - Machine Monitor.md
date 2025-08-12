@@ -712,12 +712,13 @@ Project berikut menggunakan software:
 
    ## Test
 
-   ![image-20250812140430074](C:\Users\Dinda Tresna Teja\AppData\Roaming\Typora\typora-user-images\image-20250812140430074.png)
+   test 1.png
 
-   ![image-20250812140632717](C:\Users\Dinda Tresna Teja\AppData\Roaming\Typora\typora-user-images\image-20250812140632717.png)
+   22222.png
 
-   ![image-20250812140510602](C:\Users\Dinda Tresna Teja\AppData\Roaming\Typora\typora-user-images\image-20250812140510602.png)
+   test 3.png
 
    ![image-20250812140710582](C:\Users\Dinda Tresna Teja\AppData\Roaming\Typora\typora-user-images\image-20250812140710582.png)
+
 
    
